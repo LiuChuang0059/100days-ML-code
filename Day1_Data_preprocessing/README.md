@@ -68,8 +68,8 @@ X_train, X_test, Y_train, Y_test = train_test_split( X , Y , test_size = 0.2, ra
 ```
 ## Step 6: Feature Scaling---特征缩放
 * 使用欧几里得距离
-* 特征与 标度有关
-* 使用标准特征标度
+* 特征与 标度有关，一个特征比其他的特征范围更大 该特征值成为主导
+* 使用“特征标准化”-特征等同
 
 ```python
 from sklearn.preprocessing import StandardScaler
@@ -78,6 +78,29 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.fit_transform(X_test)
 
 ```
+
+
+# 小问题:
+## 1 pip安装sklearn
+> Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/sklearn' Consider using the `--user` option or check the permissions.
+Consider using the `--user` option or check the permissions.
+
+解决： 尝试
+```
+sudo pip install sklearn
+```
+
+## 2 run 代码的时候 出现小问题：
+
+> runfile('/Users/liuchuang/.spyder-py3/Data_preprocessing.py', wdir='/Users/liuchuang/.spyder-py3')
+/Users/liuchuang/anaconda3/lib/python3.6/site-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+  
+* 解决：将 cross_validation  换成 model_selection
+
+## 3 结果可视化
+待完成～
+
 
 
 

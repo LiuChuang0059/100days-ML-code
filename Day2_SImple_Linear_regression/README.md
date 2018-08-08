@@ -64,7 +64,7 @@ Y_pred = regressor.predict(X_test)
 ```python
 plt.scatter(X_train , Y_train, color = 'red')
 plt.plot(X_train , regressor.predict(X_train), color ='blue')   ## 训练结果
-plt.scatter(X_test , Y_test, color = 'red')
+plt.scatter(X_test , Y_test, color = 'green')
 plt.plot(X_test , regressor.predict(X_test), color ='blue')   ## 测试结果
 ```
 **ps: 结果可视化中 测试集的结果使用Y_test因为y_pred上的点和预测曲线高度重合**

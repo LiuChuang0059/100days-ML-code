@@ -20,6 +20,7 @@ $$score = b_{0} + b_{1}* hours$$
 
 ## 2. 实操
 
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day2_SImple_Linear_regression/%E6%95%B0%E6%8D%AE%E9%9B%86.png)
 ### Step 1: 预处理数据-----类似于[Day1](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day1_Data_preprocessing/README.md)
 1. 导入库
 2. 导入数据集
@@ -66,6 +67,8 @@ plt.plot(X_train , regressor.predict(X_train), color ='blue')   ## 训练结果
 plt.scatter(X_test , Y_test, color = 'red')
 plt.plot(X_test , regressor.predict(X_test), color ='blue')   ## 测试结果
 ```
+**ps: 结果可视化中 测试集的结果使用Y_test因为y_pred上的点和预测曲线高度重合**
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day2_SImple_Linear_regression/%E6%B5%8B%E8%AF%95%E9%9B%86%E7%BB%93%E6%9E%9C.png)
 
 ## 3.结果
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day2_SImple_Linear_regression/Day%202_result.png)

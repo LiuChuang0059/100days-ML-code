@@ -34,8 +34,10 @@ $$\theta(s)=\frac1{1+e^{-s}}$$
 
 
 ### 3线性边界
+
 1. 边界线
-$$\Theta ^{T}=\Theta_{0}+ \Theta _{1}x_{1}+\Theta_{2}x_{2}+...+\Theta _{n}x_{n}$$
+
+$$\Theta ^{T}=\Theta_{0}+ \Theta_{1}x_{1}+\Theta_{2}x_{2}+...+\Theta_{n}x_{n}$$
 
 2.构造h函数
 $$h_{\Theta }(x)=\frac{1}{1+e^{-\Theta ^{T}x}}$$

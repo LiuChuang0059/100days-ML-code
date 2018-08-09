@@ -15,4 +15,68 @@
 * 阈值分类器 将（0，1）范围内的结果 转化为0或者1
 
 ## 4 sigmoid函数
-![](https://zh.wikipedia.org/wiki/File:Logistic-curve.svg)
+$$\theta(s)=\frac1{1+e^{-s}}$$
+
+## 5 极大似然估计
+利用已知的样本结果，反推最有可能（最大概率）导致这样结果的参数值。
+
+
+
+# 2. 基本原理
+## 1 构造一个预测函数（h函数） ：猜测预测函数的“大概”形式，比如是线性函数还是非线性函数。
+
+### 1 使用 sigmoid函数
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/sigmoid.png)
+
+### 2 确定边界类型
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/decision_boundry.jpeg)
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Nonlinear_decision_boundray.jpeg)
+
+
+### 3线性边界
+1. 边界线
+$$\Theta ^{T}=\Theta_{0}+ \Theta _{1}x_{1}+\Theta_{2}x_{2}+...+\Theta _{n}x_{n}$$
+
+2.构造h函数
+$$h_{\Theta }(x)=\frac{1}{1+e^{-\Theta ^{T}x}}$$
+h函数表示结果取1 的概率
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/h(x).png)
+
+## 2 构造cost 函数：表示预测的输出（h）与训练数据类别（y）之间的偏差
+> 综合考虑所有训练数据的“损失”，将Cost求和或者求平均，记为J(θ)函数，表示所有训练数据预测值与实际类别的偏差。
+![]()
+
+### 1 使用最大似然估计推导 ---[详细](https://blog.csdn.net/ligang_csdn/article/details/53838743)
+
+### 2 结果
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/cost%E5%87%BD%E6%95%B0.jpeg)
+
+## 3 使用梯度下降法求 J（theta）最小值 or 梯度上升求最大值
+
+### 1梯度下降法表示theta更新过程
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95.jpeg)
+
+结果：
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%BB%93%E6%9E%9C.jpeg)
+
+
+
+## 4 梯度下降过程向量化
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%90%91%E9%87%8F%E5%8C%96.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 参考
+1. 极大似然估计 ： https://blog.csdn.net/zengxiantao1994/article/details/72787849
+2. 数学推导以及图片来源： https://blog.csdn.net/ligang_csdn/article/details/53838743

@@ -1,6 +1,6 @@
 # 逻辑回归
 
-1[](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Day%204.jpg)
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Day%204.jpg)
 # 1.逻辑回归 简要介绍
 
 ## 1 应用
@@ -152,6 +152,9 @@ plt.show()
 
 # 参考
 1. 极大似然估计 ： https://blog.csdn.net/zengxiantao1994/article/details/72787849
+
 2. 数学推导以及图片来源： https://blog.csdn.net/ligang_csdn/article/details/53838743
+
 3. 可视化： https://blog.csdn.net/xlinsist/article/details/51289825
+
 4.logisticRegression() 函数参数： https://blog.csdn.net/CherDW/article/details/54891073

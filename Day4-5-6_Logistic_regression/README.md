@@ -1,5 +1,6 @@
 # 逻辑回归
 
+1[](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Day%204.jpg)
 # 1.逻辑回归 简要介绍
 
 ## 1 应用
@@ -20,7 +21,8 @@ $$\theta(s)=\frac1{1+e^{-s}}$$
 ## 5 极大似然估计
 利用已知的样本结果，反推最有可能（最大概率）导致这样结果的参数值。
 
-
+--------------
+---------------
 
 # 2. 基本原理
 ## 1 构造一个预测函数（h函数） ：猜测预测函数的“大概”形式，比如是线性函数还是非线性函数。
@@ -65,6 +67,9 @@ h函数表示结果取1 的概率
 
 ## 4 梯度下降过程向量化
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%90%91%E9%87%8F%E5%8C%96.png)
+
+----------------
+-----------------
 
 
 # 3 实操
@@ -134,6 +139,15 @@ plt.show()
 ## 结果
 ![training-set](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/training_set.png)
 ![test-set](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Test-set.png)
+
+----------------------
+---------------------
+
+
+# 4
+
+## 1 [完整代码](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/logistic_regression.py)
+## 2 [数据集](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Social_Network_Ads.csv)
 
 
 # 参考

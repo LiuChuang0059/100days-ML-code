@@ -67,18 +67,77 @@ h函数表示结果取1 的概率
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%90%91%E9%87%8F%E5%8C%96.png)
 
 
+# 3 实操
+## 1.实例
+![](https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Other%20Docs/data.PNG)
+> 尝试预测哪些用户会购买这种全新SUV。并且在最后一列用来表示用户是否购买。我们将建立一种模型来预测用户是否购买这种SUV，该模型基于两个变量，分别是年龄和预计薪资。因此我们的特征矩阵将是这两列。我们尝试寻找用户年龄与预估薪资之间的某种相关性，以及他是否购买SUV的决定。
 
+## Step 1  Data Pre-Processing-----[详见](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day1_Data_preprocessing/README.md)
 
+```python
 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
 
+dataset = pd.read_csv('Social_Network_Ads.csv')
+X = dataset.iloc[:, [2, 3]].values     ## 选取2，3两列--Age+ salary
+y = dataset.iloc[:, 4].values      ## 选取最后一列
 
+from sklearn.cross_validation import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
 
+from sklearn.preprocessing import StandardScaler    ##特征缩放
+sc = StandardScaler()
+X_train = sc.fit_transform(X_train)
+X_test = sc.transform(X_test)
 
+```
 
+> 
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/%E6%95%B0%E6%8D%AE%E9%9B%86%E6%95%A3%E7%82%B9%E5%9B%BE.png)
 
+## Step 2  Logistic Regression Model
+* 逻辑回归应用于分类好的数据集
+```python
+from sklearn.linear_model import LogisticRegression
+classifier = LogisticRegression()
+classifier.fit(X_train, y_train)
+```
+> LogisticRegression()函数有很多参数，详见[link](https://blog.csdn.net/CherDW/article/details/54891073)
+## Step 3 Predection
 
+```python
+y_pred = classifier.predict(X_test)
+
+```
+
+## Step 4  Evaluating The Predection-------混淆矩阵等待解决？？？？
+
+```python
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
+```
+
+## Step 5 visulisation
+> 原文无代码,但是有可视化结果，自行可视化-----其中[plot_decision_regions函数代码](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/plot_decison_regions.py)
+```python
+plot_decision_regions(X_test, y_pred, classifier=cl)
+plt.xlabel('age')
+plt.ylabel('salary')
+plt.legend(loc='upper left')
+plt.title("Test set")
+plt.show()
+
+```
+
+## 结果
+![training-set](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/training_set.png)
+![test-set](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Test-set.png)
 
 
 # 参考
 1. 极大似然估计 ： https://blog.csdn.net/zengxiantao1994/article/details/72787849
 2. 数学推导以及图片来源： https://blog.csdn.net/ligang_csdn/article/details/53838743
+3. 可视化： https://blog.csdn.net/xlinsist/article/details/51289825
+4.logisticRegression() 函数参数： https://blog.csdn.net/CherDW/article/details/54891073

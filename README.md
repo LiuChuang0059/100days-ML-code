@@ -19,14 +19,16 @@
 
 ----------
 
-## 4. [Day4+Day5+Day6---Logistic regression](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/README.md)------[code]()
+## 4. [Day4+Day5+Day6---Logistic regression](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/README.md)------[code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/logistic_regression.py)
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day4-5-6_Logistic_regression/Day%204.jpg)
 
 ---------
 
 
 
+## 5. [Day7-8-9-10---KNN](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day7-8-9-10KNN/README.md)-----[code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day7-8-9-10KNN/KNN.py)
 
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day7-8-9-10KNN/Day%207.jpg)
 
 
 

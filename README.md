@@ -1,6 +1,6 @@
 # 100days-ML-code（翻译+ 实操）
 ## 1 原文----[Avik-jain/100-days-of-ML](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
-## 2 翻译汉化----[MachineLearning100/100-Days-Of-ML-Code](https://github.com/MachineLearning100/100-Days-Of-ML-Code/blob/master/README.md) 
+## 2 翻译汉化----[MachineLearning100/100-Days-Of-ML-Code](https://github.com/MachineLearning100/100-Days-Of-ML-Code/blob/master/README.md)
 > ps:个人认为：谷歌翻译水平，无详细注释讲解，仅仅适合参考或者快食。
 -----------------
 
@@ -36,6 +36,11 @@
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day7-8-9-10KNN/Day%207.jpg)
 
 
+----
+
+## 6. [Day 11-12-13-14---SVM](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/README.md)
+## [code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/SVM%20%E5%AE%9E%E7%8E%B0.ipynb)
+![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/Day%2012.jpg)
 
 
 

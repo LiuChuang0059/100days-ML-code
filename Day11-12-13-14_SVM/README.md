@@ -293,9 +293,9 @@ plt.show()
 
 # 附录
 
-### [实现的 jupyter notebook]()
+### [SVM 实现的 jupyter notebook](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/SVM%20%E5%AE%9E%E7%8E%B0.ipynb)
 
-### [实现 python 代码]()
+### [SVM 实现 python 代码](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/SVM_sklearn.py)
 
 ### [数据集](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day7-8-9-10KNN/Social_Network_Ads.csv)
 

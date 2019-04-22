@@ -6,6 +6,8 @@
 
 **文章公式图片摘自 组会报告的 PPT**
 
+只是想简单的应用，可以直接跳到文章的第四部分-----SVM Sklearn 实现
+
 #  1.SVM 基础了解
 
 
@@ -334,6 +336,10 @@
 
 **存在问题** 计算复杂度太高
 
+-----
+
+
+
 ### 2. 一类对其余
 
 例如有 10类，1，2，…10, 每次把一类设定为正类别，其他的全部设定为负类别，这样得到 10个 二类分类器
@@ -343,6 +349,8 @@
 1. 数据集偏斜，负样本数目多
 2. 分类出现重叠现象： 一个样本在第一个分类器被分为 1，第二个被分为2
 3. 分类出现不可分类现象： 样本在每个二类分类器中都是负类别。
+
+------
 
 
 
@@ -363,6 +371,8 @@ k(k-1)/2 个分类器
 > **The multiclass support is handled according to a one-vs-one scheme.**
 >
 > **If** **n_class** **is the number of classes, then** **n_class \* (n_class - 1) / 2** **classifiers are constructed and each one trains data from two classes. T**
+
+------
 
 
 
@@ -649,7 +659,7 @@ plt.show()
 
 不同核函数预测结果
 
-![image-20190422162121266](/Users/liuchuang/Library/Application Support/typora-user-images/image-20190422162121266.png)
+![image-20190422162121266](https://ws1.sinaimg.cn/large/006tNc79ly1g2bhzw1e0cj30qc0au3zy.jpg)
 
 
 

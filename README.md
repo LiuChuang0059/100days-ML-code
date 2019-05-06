@@ -42,6 +42,14 @@
 ## [code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/SVM%20%E5%AE%9E%E7%8E%B0.ipynb)
 ![](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day11-12-13-14_SVM/Day%2012.jpg)
 
+---
+
+## 7. Day 15 --- Data Visualization by Seaborn
+## [code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Data%20Visualization%20by%20Seaborn/Data%20Visualization%20by%20Seaborn.ipynb)
+
+![](http://pqvlt7eed.bkt.clouddn.com/4569w.png)
+
+----
 
 
 

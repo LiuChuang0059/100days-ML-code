@@ -1,12 +1,14 @@
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Data-Visualization:-from-Non-Coder-to-Coder" data-toc-modified-id="Data-Visualization:-from-Non-Coder-to-Coder-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data Visualization: from Non-Coder to Coder</a></span></li><li><span><a href="#Hello-Seaborn" data-toc-modified-id="Hello-Seaborn-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Hello Seaborn</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-Data" data-toc-modified-id="Plot-the-Data-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Plot the Data</a></span></li></ul></li><li><span><a href="#LineCharts" data-toc-modified-id="LineCharts-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>LineCharts</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-data" data-toc-modified-id="Plot-the-data-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Plot the data</a></span></li><li><span><a href="#Plot--a-subset--of-the-data" data-toc-modified-id="Plot--a-subset--of-the-data-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Plot  a subset  of the data</a></span></li></ul></li><li><span><a href="#Bar-charts-and-Heatmaps" data-toc-modified-id="Bar-charts-and-Heatmaps-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Bar charts and Heatmaps</a></span><ul class="toc-item"><li><span><a href="#Laod-Data" data-toc-modified-id="Laod-Data-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Laod Data</a></span></li><li><span><a href="#Bar-chart" data-toc-modified-id="Bar-chart-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Bar chart</a></span></li><li><span><a href="#Heatmap" data-toc-modified-id="Heatmap-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Heatmap</a></span></li></ul></li><li><span><a href="#Scatter" data-toc-modified-id="Scatter-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Scatter</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-data" data-toc-modified-id="Plot-the-data-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Plot the data</a></span><ul class="toc-item"><li><span><a href="#加入一个回归曲线" data-toc-modified-id="加入一个回归曲线-5.2.1"><span class="toc-item-num">5.2.1&nbsp;&nbsp;</span>加入一个回归曲线</a></span></li><li><span><a href="#散点图着色" data-toc-modified-id="散点图着色-5.2.2"><span class="toc-item-num">5.2.2&nbsp;&nbsp;</span>散点图着色</a></span></li><li><span><a href="#两条回归曲线" data-toc-modified-id="两条回归曲线-5.2.3"><span class="toc-item-num">5.2.3&nbsp;&nbsp;</span>两条回归曲线</a></span></li></ul></li><li><span><a href="#Swarmplot" data-toc-modified-id="Swarmplot-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Swarmplot</a></span></li></ul></li><li><span><a href="#histograms-and-density-plots" data-toc-modified-id="histograms-and-density-plots-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>histograms and density plots</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Histograms" data-toc-modified-id="Histograms-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Histograms</a></span></li><li><span><a href="#kernel-density-estimate-(KDE)-plot" data-toc-modified-id="kernel-density-estimate-(KDE)-plot-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>kernel density estimate (KDE) plot</a></span></li><li><span><a href="#2D-KDE-Plots" data-toc-modified-id="2D-KDE-Plots-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>2D-KDE Plots</a></span></li><li><span><a href="#Color-coded-plots" data-toc-modified-id="Color-coded-plots-6.5"><span class="toc-item-num">6.5&nbsp;&nbsp;</span>Color-coded plots</a></span></li></ul></li><li><span><a href="#Changing-styles-with-seaborn" data-toc-modified-id="Changing-styles-with-seaborn-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Changing styles with seaborn</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Data-Visualization:-from-Non-Coder-to-Coder" data-toc-modified-id="Data-Visualization:-from-Non-Coder-to-Coder-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data Visualization: from Non-Coder to Coder</a></span></li><li><span><a href="#Hello-Seaborn" data-toc-modified-id="Hello-Seaborn-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Hello Seaborn</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-Data" data-toc-modified-id="Plot-the-Data-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Plot the Data</a></span></li></ul></li><li><span><a href="#LineCharts" data-toc-modified-id="LineCharts-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>LineCharts</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-data" data-toc-modified-id="Plot-the-data-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Plot the data</a></span></li><li><span><a href="#Plot--a-subset--of-the-data" data-toc-modified-id="Plot--a-subset--of-the-data-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Plot  a subset  of the data</a></span></li></ul></li><li><span><a href="#Bar-charts-and-Heatmaps" data-toc-modified-id="Bar-charts-and-Heatmaps-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Bar charts and Heatmaps</a></span><ul class="toc-item"><li><span><a href="#Laod-Data" data-toc-modified-id="Laod-Data-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Laod Data</a></span></li><li><span><a href="#Bar-chart" data-toc-modified-id="Bar-chart-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Bar chart</a></span></li><li><span><a href="#Heatmap" data-toc-modified-id="Heatmap-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Heatmap</a></span></li></ul></li><li><span><a href="#Scatter" data-toc-modified-id="Scatter-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Scatter</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Plot-the-data" data-toc-modified-id="Plot-the-data-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Plot the data</a></span><ul class="toc-item"><li><span><a href="#加入一个回归曲线" data-toc-modified-id="加入一个回归曲线-5.2.1"><span class="toc-item-num">5.2.1&nbsp;&nbsp;</span>加入一个回归曲线</a></span></li><li><span><a href="#散点图着色" data-toc-modified-id="散点图着色-5.2.2"><span class="toc-item-num">5.2.2&nbsp;&nbsp;</span>散点图着色</a></span></li><li><span><a href="#两条回归曲线" data-toc-modified-id="两条回归曲线-5.2.3"><span class="toc-item-num">5.2.3&nbsp;&nbsp;</span>两条回归曲线</a></span></li></ul></li><li><span><a href="#Swarmplot" data-toc-modified-id="Swarmplot-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Swarmplot</a></span></li></ul></li><li><span><a href="#histograms-and-density-plots" data-toc-modified-id="histograms-and-density-plots-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>histograms and density plots</a></span><ul class="toc-item"><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Histograms" data-toc-modified-id="Histograms-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Histograms</a></span></li><li><span><a href="#kernel-density-estimate-(KDE)-plot" data-toc-modified-id="kernel-density-estimate-(KDE)-plot-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>kernel density estimate (KDE) plot</a></span></li><li><span><a href="#2D-KDE-Plots" data-toc-modified-id="2D-KDE-Plots-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>2D-KDE Plots</a></span></li><li><span><a href="#Color-coded-plots" data-toc-modified-id="Color-coded-plots-6.5"><span class="toc-item-num">6.5&nbsp;&nbsp;</span>Color-coded plots</a></span></li></ul></li><li><span><a href="#Changing-styles-with-seaborn" data-toc-modified-id="Changing-styles-with-seaborn-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Changing styles with seaborn</a></span></li><li><span><a href="#Boxplot-and-violin-plot" data-toc-modified-id="Boxplot-and-violin-plot-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Boxplot and violin plot</a></span></li><li><span><a href="#Faceting-with-seaborn" data-toc-modified-id="Faceting-with-seaborn-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Faceting with seaborn</a></span><ul class="toc-item"><li><span><a href="#load-data" data-toc-modified-id="load-data-9.1"><span class="toc-item-num">9.1&nbsp;&nbsp;</span>load data</a></span></li><li><span><a href="#Plot" data-toc-modified-id="Plot-9.2"><span class="toc-item-num">9.2&nbsp;&nbsp;</span>Plot</a></span></li></ul></li><li><span><a href="#pairplot" data-toc-modified-id="pairplot-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>pairplot</a></span></li></ul></div>
 
 # Data Visualization: from Non-Coder to Coder
 
 * 原文link -- https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder
 
 * 一个 seaborn 画图快速入门
+
+* 进阶---https://www.kaggle.com/residentmario/faceting-with-seaborn/data
 
 # Hello Seaborn
 
@@ -1572,4 +1574,878 @@ sns.lineplot(data=spotify_data)
 
 
 ![png](output_75_1.png)
+
+
+# Boxplot and violin plot
+
+
+```python
+reviews = pd.read_csv(
+    "wine-reviews/winemag-data_first150k.csv", index_col=0)
+reviews.head(3)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>description</th>
+      <th>designation</th>
+      <th>points</th>
+      <th>price</th>
+      <th>province</th>
+      <th>region_1</th>
+      <th>region_2</th>
+      <th>variety</th>
+      <th>winery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>US</td>
+      <td>This tremendous 100% varietal wine hails from ...</td>
+      <td>Martha's Vineyard</td>
+      <td>96</td>
+      <td>235.0</td>
+      <td>California</td>
+      <td>Napa Valley</td>
+      <td>Napa</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Heitz</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Spain</td>
+      <td>Ripe aromas of fig, blackberry and cassis are ...</td>
+      <td>Carodorum Selección Especial Reserva</td>
+      <td>96</td>
+      <td>110.0</td>
+      <td>Northern Spain</td>
+      <td>Toro</td>
+      <td>NaN</td>
+      <td>Tinta de Toro</td>
+      <td>Bodega Carmen Rodríguez</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>US</td>
+      <td>Mac Watson honors the memory of a wine once ma...</td>
+      <td>Special Selected Late Harvest</td>
+      <td>96</td>
+      <td>90.0</td>
+      <td>California</td>
+      <td>Knights Valley</td>
+      <td>Sonoma</td>
+      <td>Sauvignon Blanc</td>
+      <td>Macauley</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df = reviews[reviews.variety.isin(
+    reviews.variety.value_counts().head(5).index)]
+# variety 前 5 名酒 的数据
+sns.boxplot(x='variety', y='points', data=df)
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a2ae589e8>
+
+
+
+
+![png](output_78_1.png)
+
+
+* 中间的箱子有 3条线，上面的是 上四分位数，就是将数据从小到大排列，3/4 while置的数据
+* 中间的 是中位数
+* 下面的是 下四分位数
+
+
+```python
+sns.violinplot(
+    x='variety',
+    y='points',
+    data=reviews[reviews.variety.isin(reviews.variety.value_counts()[:5].index)]
+)
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a2b01f518>
+
+
+
+
+![png](output_80_2.png)
+
+
+![](http://pqvlt7eed.bkt.clouddn.com/a3vrv.jpg)
+
+# Faceting with seaborn
+
+* 将数据分解成为多个子图
+
+## load data
+
+* FIFA 足球数据
+
+
+```python
+pd.set_option('max_columns', None)
+df = pd.read_csv(
+    "fifa-18-demo-player-dataset/CompleteDataset.csv", index_col=0)
+import re
+import numpy as np
+
+footballers = df.copy()
+footballers['Unit'] = df['Value'].str[-1]
+footballers['Value (M)'] = np.where(
+    footballers['Unit'] == '0', 0, footballers['Value'].str[1:-1].replace(
+        r'[a-zA-Z]', ''))
+footballers['Value (M)'] = footballers['Value (M)'].astype(float)
+footballers['Value (M)'] = np.where(footballers['Unit'] == 'M',
+                                    footballers['Value (M)'],
+                                    footballers['Value (M)'] / 1000)
+footballers = footballers.assign(
+    Value=footballers['Value (M)'],
+    Position=footballers['Preferred Positions'].str.split().str[0])
+footballers.head()
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/IPython/core/interactiveshell.py:2785: DtypeWarning: Columns (23,35) have mixed types. Specify dtype option on import or set low_memory=False.
+      interactivity=interactivity, compiler=compiler, result=result)
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Photo</th>
+      <th>Nationality</th>
+      <th>Flag</th>
+      <th>Overall</th>
+      <th>Potential</th>
+      <th>Club</th>
+      <th>Club Logo</th>
+      <th>Value</th>
+      <th>Wage</th>
+      <th>Special</th>
+      <th>Acceleration</th>
+      <th>Aggression</th>
+      <th>Agility</th>
+      <th>Balance</th>
+      <th>Ball control</th>
+      <th>Composure</th>
+      <th>Crossing</th>
+      <th>Curve</th>
+      <th>Dribbling</th>
+      <th>Finishing</th>
+      <th>Free kick accuracy</th>
+      <th>GK diving</th>
+      <th>GK handling</th>
+      <th>GK kicking</th>
+      <th>GK positioning</th>
+      <th>GK reflexes</th>
+      <th>Heading accuracy</th>
+      <th>Interceptions</th>
+      <th>Jumping</th>
+      <th>Long passing</th>
+      <th>Long shots</th>
+      <th>Marking</th>
+      <th>Penalties</th>
+      <th>Positioning</th>
+      <th>Reactions</th>
+      <th>Short passing</th>
+      <th>Shot power</th>
+      <th>Sliding tackle</th>
+      <th>Sprint speed</th>
+      <th>Stamina</th>
+      <th>Standing tackle</th>
+      <th>Strength</th>
+      <th>Vision</th>
+      <th>Volleys</th>
+      <th>CAM</th>
+      <th>CB</th>
+      <th>CDM</th>
+      <th>CF</th>
+      <th>CM</th>
+      <th>ID</th>
+      <th>LAM</th>
+      <th>LB</th>
+      <th>LCB</th>
+      <th>LCM</th>
+      <th>LDM</th>
+      <th>LF</th>
+      <th>LM</th>
+      <th>LS</th>
+      <th>LW</th>
+      <th>LWB</th>
+      <th>Preferred Positions</th>
+      <th>RAM</th>
+      <th>RB</th>
+      <th>RCB</th>
+      <th>RCM</th>
+      <th>RDM</th>
+      <th>RF</th>
+      <th>RM</th>
+      <th>RS</th>
+      <th>RW</th>
+      <th>RWB</th>
+      <th>ST</th>
+      <th>Unit</th>
+      <th>Value (M)</th>
+      <th>Position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Cristiano Ronaldo</td>
+      <td>32</td>
+      <td>https://cdn.sofifa.org/48/18/players/20801.png</td>
+      <td>Portugal</td>
+      <td>https://cdn.sofifa.org/flags/38.png</td>
+      <td>94</td>
+      <td>94</td>
+      <td>Real Madrid CF</td>
+      <td>https://cdn.sofifa.org/24/18/teams/243.png</td>
+      <td>95.5</td>
+      <td>€565K</td>
+      <td>2228</td>
+      <td>89</td>
+      <td>63</td>
+      <td>89</td>
+      <td>63</td>
+      <td>93</td>
+      <td>95</td>
+      <td>85</td>
+      <td>81</td>
+      <td>91</td>
+      <td>94</td>
+      <td>76</td>
+      <td>7</td>
+      <td>11</td>
+      <td>15</td>
+      <td>14</td>
+      <td>11</td>
+      <td>88</td>
+      <td>29</td>
+      <td>95</td>
+      <td>77</td>
+      <td>92</td>
+      <td>22</td>
+      <td>85</td>
+      <td>95</td>
+      <td>96</td>
+      <td>83</td>
+      <td>94</td>
+      <td>23</td>
+      <td>91</td>
+      <td>92</td>
+      <td>31</td>
+      <td>80</td>
+      <td>85</td>
+      <td>88</td>
+      <td>89.0</td>
+      <td>53.0</td>
+      <td>62.0</td>
+      <td>91.0</td>
+      <td>82.0</td>
+      <td>20801</td>
+      <td>89.0</td>
+      <td>61.0</td>
+      <td>53.0</td>
+      <td>82.0</td>
+      <td>62.0</td>
+      <td>91.0</td>
+      <td>89.0</td>
+      <td>92.0</td>
+      <td>91.0</td>
+      <td>66.0</td>
+      <td>ST LW</td>
+      <td>89.0</td>
+      <td>61.0</td>
+      <td>53.0</td>
+      <td>82.0</td>
+      <td>62.0</td>
+      <td>91.0</td>
+      <td>89.0</td>
+      <td>92.0</td>
+      <td>91.0</td>
+      <td>66.0</td>
+      <td>92.0</td>
+      <td>M</td>
+      <td>95.5</td>
+      <td>ST</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>L. Messi</td>
+      <td>30</td>
+      <td>https://cdn.sofifa.org/48/18/players/158023.png</td>
+      <td>Argentina</td>
+      <td>https://cdn.sofifa.org/flags/52.png</td>
+      <td>93</td>
+      <td>93</td>
+      <td>FC Barcelona</td>
+      <td>https://cdn.sofifa.org/24/18/teams/241.png</td>
+      <td>105.0</td>
+      <td>€565K</td>
+      <td>2154</td>
+      <td>92</td>
+      <td>48</td>
+      <td>90</td>
+      <td>95</td>
+      <td>95</td>
+      <td>96</td>
+      <td>77</td>
+      <td>89</td>
+      <td>97</td>
+      <td>95</td>
+      <td>90</td>
+      <td>6</td>
+      <td>11</td>
+      <td>15</td>
+      <td>14</td>
+      <td>8</td>
+      <td>71</td>
+      <td>22</td>
+      <td>68</td>
+      <td>87</td>
+      <td>88</td>
+      <td>13</td>
+      <td>74</td>
+      <td>93</td>
+      <td>95</td>
+      <td>88</td>
+      <td>85</td>
+      <td>26</td>
+      <td>87</td>
+      <td>73</td>
+      <td>28</td>
+      <td>59</td>
+      <td>90</td>
+      <td>85</td>
+      <td>92.0</td>
+      <td>45.0</td>
+      <td>59.0</td>
+      <td>92.0</td>
+      <td>84.0</td>
+      <td>158023</td>
+      <td>92.0</td>
+      <td>57.0</td>
+      <td>45.0</td>
+      <td>84.0</td>
+      <td>59.0</td>
+      <td>92.0</td>
+      <td>90.0</td>
+      <td>88.0</td>
+      <td>91.0</td>
+      <td>62.0</td>
+      <td>RW</td>
+      <td>92.0</td>
+      <td>57.0</td>
+      <td>45.0</td>
+      <td>84.0</td>
+      <td>59.0</td>
+      <td>92.0</td>
+      <td>90.0</td>
+      <td>88.0</td>
+      <td>91.0</td>
+      <td>62.0</td>
+      <td>88.0</td>
+      <td>M</td>
+      <td>105.0</td>
+      <td>RW</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Neymar</td>
+      <td>25</td>
+      <td>https://cdn.sofifa.org/48/18/players/190871.png</td>
+      <td>Brazil</td>
+      <td>https://cdn.sofifa.org/flags/54.png</td>
+      <td>92</td>
+      <td>94</td>
+      <td>Paris Saint-Germain</td>
+      <td>https://cdn.sofifa.org/24/18/teams/73.png</td>
+      <td>123.0</td>
+      <td>€280K</td>
+      <td>2100</td>
+      <td>94</td>
+      <td>56</td>
+      <td>96</td>
+      <td>82</td>
+      <td>95</td>
+      <td>92</td>
+      <td>75</td>
+      <td>81</td>
+      <td>96</td>
+      <td>89</td>
+      <td>84</td>
+      <td>9</td>
+      <td>9</td>
+      <td>15</td>
+      <td>15</td>
+      <td>11</td>
+      <td>62</td>
+      <td>36</td>
+      <td>61</td>
+      <td>75</td>
+      <td>77</td>
+      <td>21</td>
+      <td>81</td>
+      <td>90</td>
+      <td>88</td>
+      <td>81</td>
+      <td>80</td>
+      <td>33</td>
+      <td>90</td>
+      <td>78</td>
+      <td>24</td>
+      <td>53</td>
+      <td>80</td>
+      <td>83</td>
+      <td>88.0</td>
+      <td>46.0</td>
+      <td>59.0</td>
+      <td>88.0</td>
+      <td>79.0</td>
+      <td>190871</td>
+      <td>88.0</td>
+      <td>59.0</td>
+      <td>46.0</td>
+      <td>79.0</td>
+      <td>59.0</td>
+      <td>88.0</td>
+      <td>87.0</td>
+      <td>84.0</td>
+      <td>89.0</td>
+      <td>64.0</td>
+      <td>LW</td>
+      <td>88.0</td>
+      <td>59.0</td>
+      <td>46.0</td>
+      <td>79.0</td>
+      <td>59.0</td>
+      <td>88.0</td>
+      <td>87.0</td>
+      <td>84.0</td>
+      <td>89.0</td>
+      <td>64.0</td>
+      <td>84.0</td>
+      <td>M</td>
+      <td>123.0</td>
+      <td>LW</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>L. Suárez</td>
+      <td>30</td>
+      <td>https://cdn.sofifa.org/48/18/players/176580.png</td>
+      <td>Uruguay</td>
+      <td>https://cdn.sofifa.org/flags/60.png</td>
+      <td>92</td>
+      <td>92</td>
+      <td>FC Barcelona</td>
+      <td>https://cdn.sofifa.org/24/18/teams/241.png</td>
+      <td>97.0</td>
+      <td>€510K</td>
+      <td>2291</td>
+      <td>88</td>
+      <td>78</td>
+      <td>86</td>
+      <td>60</td>
+      <td>91</td>
+      <td>83</td>
+      <td>77</td>
+      <td>86</td>
+      <td>86</td>
+      <td>94</td>
+      <td>84</td>
+      <td>27</td>
+      <td>25</td>
+      <td>31</td>
+      <td>33</td>
+      <td>37</td>
+      <td>77</td>
+      <td>41</td>
+      <td>69</td>
+      <td>64</td>
+      <td>86</td>
+      <td>30</td>
+      <td>85</td>
+      <td>92</td>
+      <td>93</td>
+      <td>83</td>
+      <td>87</td>
+      <td>38</td>
+      <td>77</td>
+      <td>89</td>
+      <td>45</td>
+      <td>80</td>
+      <td>84</td>
+      <td>88</td>
+      <td>87.0</td>
+      <td>58.0</td>
+      <td>65.0</td>
+      <td>88.0</td>
+      <td>80.0</td>
+      <td>176580</td>
+      <td>87.0</td>
+      <td>64.0</td>
+      <td>58.0</td>
+      <td>80.0</td>
+      <td>65.0</td>
+      <td>88.0</td>
+      <td>85.0</td>
+      <td>88.0</td>
+      <td>87.0</td>
+      <td>68.0</td>
+      <td>ST</td>
+      <td>87.0</td>
+      <td>64.0</td>
+      <td>58.0</td>
+      <td>80.0</td>
+      <td>65.0</td>
+      <td>88.0</td>
+      <td>85.0</td>
+      <td>88.0</td>
+      <td>87.0</td>
+      <td>68.0</td>
+      <td>88.0</td>
+      <td>M</td>
+      <td>97.0</td>
+      <td>ST</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>M. Neuer</td>
+      <td>31</td>
+      <td>https://cdn.sofifa.org/48/18/players/167495.png</td>
+      <td>Germany</td>
+      <td>https://cdn.sofifa.org/flags/21.png</td>
+      <td>92</td>
+      <td>92</td>
+      <td>FC Bayern Munich</td>
+      <td>https://cdn.sofifa.org/24/18/teams/21.png</td>
+      <td>61.0</td>
+      <td>€230K</td>
+      <td>1493</td>
+      <td>58</td>
+      <td>29</td>
+      <td>52</td>
+      <td>35</td>
+      <td>48</td>
+      <td>70</td>
+      <td>15</td>
+      <td>14</td>
+      <td>30</td>
+      <td>13</td>
+      <td>11</td>
+      <td>91</td>
+      <td>90</td>
+      <td>95</td>
+      <td>91</td>
+      <td>89</td>
+      <td>25</td>
+      <td>30</td>
+      <td>78</td>
+      <td>59</td>
+      <td>16</td>
+      <td>10</td>
+      <td>47</td>
+      <td>12</td>
+      <td>85</td>
+      <td>55</td>
+      <td>25</td>
+      <td>11</td>
+      <td>61</td>
+      <td>44</td>
+      <td>10</td>
+      <td>83</td>
+      <td>70</td>
+      <td>11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>167495</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>GK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>M</td>
+      <td>61.0</td>
+      <td>GK</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+* 怀念高中时代的 MSN ，真的是 又强势又有爱，后来马儿走了，苏牙有点跑不动，冲击力弱了些，好在梅老五依然强无敌，强行给球迷续青春
+
+## Plot
+
+* 比较 前锋 和 门将
+
+
+```python
+df = footballers[footballers['Position'].isin(['ST', 'GK'])]
+g = sns.FacetGrid(df, col="Position") # col 分割变量
+g.map(sns.kdeplot, "Overall")  # 将数据放入 图
+
+```
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x1a2b39a390>
+
+
+
+
+![png](output_87_1.png)
+
+
+* 所有位置 球员
+
+
+```python
+df = footballers
+
+g = sns.FacetGrid(df, col="Position", col_wrap=6)  # 每行最多放置 6个子图
+g.map(sns.kdeplot, "Overall")
+```
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x1a2c784ef0>
+
+
+
+
+![png](output_89_1.png)
+
+
+
+```python
+df = footballers
+
+g = sns.FacetGrid(df, col="Position")
+g.map(sns.kdeplot, "Overall")
+
+```
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x11a03cf98>
+
+
+
+
+![png](output_90_1.png)
+
+
+* 分析 西甲三巨头中 前锋 门将的数据
+* 按照 俱乐部 和位置 绘图
+
+
+```python
+df = footballers[footballers['Position'].isin(['ST', 'GK'])]
+df = df[df['Club'].isin(['Real Madrid CF', 'FC Barcelona', 'Atlético Madrid'])]
+
+g = sns.FacetGrid(df, row="Position", col="Club")
+g.map(sns.violinplot, "Overall")
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/seaborn/axisgrid.py:715: UserWarning: Using the violinplot function without specifying `order` is likely to produce an incorrect plot.
+      warnings.warn(warning)
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x1a29a3fcf8>
+
+
+
+
+![png](output_92_2.png)
+
+
+* 可以自定义绘图的顺序
+
+
+```python
+df = footballers[footballers['Position'].isin(['ST', 'GK'])]
+df = df[df['Club'].isin(['Real Madrid CF', 'FC Barcelona', 'Atlético Madrid'])]
+
+g = sns.FacetGrid(df, row="Position", col="Club", 
+                  row_order=['GK', 'ST'],
+                  col_order=['Atlético Madrid', 'FC Barcelona', 'Real Madrid CF'])
+g.map(sns.violinplot, "Overall")
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/seaborn/axisgrid.py:715: UserWarning: Using the violinplot function without specifying `order` is likely to produce an incorrect plot.
+      warnings.warn(warning)
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x1a2fdf8128>
+
+
+
+
+![png](output_94_2.png)
+
+
+# pairplot
+
+* 类似于 gridsearch  所有的变量生成一个棋盘网格，俩俩排列组合
+
+
+
+```python
+sns.pairplot(footballers[['Overall', 'Potential', 'Value']])
+```
+
+
+
+
+    <seaborn.axisgrid.PairGrid at 0x119a1d438>
+
+
+
+
+![png](output_96_1.png)
+
+
+* 默认绘制 散点图 
+* 对角线默认 histogram
+
+> Signature: sns.pairplot(data, hue=None, hue_order=None, palette=None, vars=None, x_vars=None, y_vars=None, kind='scatter', diag_kind='auto', markers=None, height=2.5, aspect=1, dropna=True, plot_kws=None, diag_kws=None, grid_kws=None, size=None)
+
+
+```python
+sns.pairplot(footballers[['Overall', 'Potential', 'Value']],
+             kind='reg')
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+
+
+
+
+    <seaborn.axisgrid.PairGrid at 0x1a34382e48>
+
+
+
+
+![png](output_99_2.png)
+
+
+* 看出潜力和 综合评分正相关
+
+
+```python
+sns.pairplot(footballers[['Overall', 'Potential', 'Value']].sample(100),
+             kind='reg')
+```
+
+    /Users/liuchuang/anaconda3/envs/tensorflow/lib/python3.6/site-packages/scipy/stats/stats.py:1713: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+      return np.add.reduce(sorted[indexer] * weights, axis=axis) / sumval
+
+
+
+
+
+    <seaborn.axisgrid.PairGrid at 0x1a34c605f8>
+
+
+
+
+![png](output_101_2.png)
 

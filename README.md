@@ -1,7 +1,10 @@
 # 100days-ML-code（翻译+ 实操）
 ## 1 原文----[Avik-jain/100-days-of-ML](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
-## 2 翻译汉化----[MachineLearning100/100-Days-Of-ML-Code](https://github.com/MachineLearning100/100-Days-Of-ML-Code/blob/master/README.md)
+## 2 翻译汉化项目----[MachineLearning100/100-Days-Of-ML-Code](https://github.com/MachineLearning100/100-Days-Of-ML-Code/blob/master/README.md)
 > ps:个人认为：谷歌翻译水平，无详细注释讲解，仅仅适合参考或者快食。
+
+
+* Tip🌟 ：如果下面 ipynb 文件打开速度过慢或者打不开，可以将文件链接复制到 https://nbviewer.jupyter.org/ 进行打开
 -----------------
 
 ## 1. [Day1---Data preprocessing](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day1_Data_preprocessing/README.md)
@@ -44,10 +47,17 @@
 
 ---
 
-## 7. Day 15 --- Data Visualization by Seaborn
-## [code](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Data%20Visualization%20by%20Seaborn/Data%20Visualization%20by%20Seaborn.ipynb)
+## 7. Day 15-16-17 --- Data Visualization
+#### 1.  [Data Visualization by  Pandas(matplotlib)](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day15-16-17_Data%20Visualization/Data_visualization_by_pandas.ipynb)
 
-![](http://pqvlt7eed.bkt.clouddn.com/4569w.png)
+![](http://pqvlt7eed.bkt.clouddn.com/d0290.png)
+
+#### 2. [Data Visualization by  Seaborn](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day15-16-17_Data%20Visualization/Data%20Visualization%20by%20Seaborn.ipynb)
+![](http://pqvlt7eed.bkt.clouddn.com/m7gn8.png)
+
+#### 3. [Time series data Visualization](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day15-16-17_Data%20Visualization/Time_series_data_Visualization.ipynb)
+
+![](http://pqvlt7eed.bkt.clouddn.com/m2x6t.png)
 
 ----
 

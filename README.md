@@ -61,9 +61,13 @@
 
 ----
 
-## 7. Day 18-19-20 --- Linear Algebra
+## 8. Day 18-19-20 --- Linear Algebra
 
-[线性代数基础知识快速学习回顾]()
+* [线性代数基础知识快速学习回顾](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day%2018-19-20%20Linear%20algebra/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.pdf)
+
+* 笔记内容为 [3blue1brown 线性代数系列视频课程](https://space.bilibili.com/88461692?from=search&seid=6764604302374459112)学习记录。
+
+* 文档没有添加目录，因为内容不多,建议按照顺序阅读，便于理解。
 
 
 

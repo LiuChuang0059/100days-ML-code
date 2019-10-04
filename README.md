@@ -69,8 +69,22 @@
 
 * 文档没有添加目录，因为内容不多,建议按照顺序阅读，便于理解。
 
+-----
+
+## 8. Day 21-22-23 --- Probability and Mathematical Statistics
 
 
+* [概率论基础知识快速学习回顾]()
+
+
+* 本篇笔记主要是概率论相关知识学习，数理统计相关在下一篇。
+
+* 主要参考：
+
+	 _《概率论与数理统计》齐民友, 武汉大学_
+
+	 _《Probability and Statistics》Morris H. DeGroot , Carnegie Mellon
+University_
 
 
 

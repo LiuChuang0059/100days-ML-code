@@ -74,7 +74,7 @@
 ## 8. Day 21-22-23 --- Probability and Mathematical Statistics
 
 
-* [概率论基础知识快速学习回顾]()
+* [概率论基础知识快速学习回顾](https://github.com/LiuChuang0059/100days-ML-code/blob/master/Day21-22-23_Probability/Probability_and_Mathematical_Statistics_1.pdf)
 
 
 * 本篇笔记主要是概率论相关知识学习，数理统计相关在下一篇。
